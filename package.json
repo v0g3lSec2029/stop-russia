@@ -1,0 +1,21 @@
+{
+  "name": "fuck-warship",
+  "version": "1.0.0",
+  "description": "DDoS Node.js tool that aims to destroy Russian network infrastructure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node fuck-warship.js"
+  },
+  "keywords": [
+    "ddos",
+    "fuck-warship"
+  ],
+  "author": "Serhii Moskovko",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "node-abort-controller": "^3.0.1",
+    "node-fetch": "^3.2.1"
+  }
+}
